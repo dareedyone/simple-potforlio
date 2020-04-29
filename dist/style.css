@@ -1,0 +1,201 @@
+html, body {
+  box-sizing: border-box;
+  
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+ text-align: center;
+}
+
+#navbar {
+  width: 100%;
+  background-color: #e6fff7;
+  height: 60px;
+  position: fixed;
+  top: 0;
+ 
+}
+
+#navbar ul{
+  
+  float: right;
+  margin-right: 80px;
+}
+
+
+
+#navbar ul li {
+  display: inline-block;
+  
+  margin: 20px;
+  margin-left: 40px;
+  
+  
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #3d5c5c;
+  float: right;
+  
+}
+
+#welcome-section {
+  background-color: #e6fff7;
+  width: 100%;
+  margin-top: 60px;
+  height: 55vh;
+  padding-top: 45vh;
+  
+}
+
+#welcome-section h1 {
+  font-size: 35px;
+}
+
+#welcome-section p {
+  color: green;
+  
+}
+
+#projects {
+padding-left: 30px;
+ padding-right: 30px; 
+  
+}
+
+#projects h1 {
+  color: #334d4d;
+  padding-top: 30px;
+}
+
+
+
+
+/**.project-tile {
+ 
+  border: 2px solid #334d4d;
+  margin-top: 20px;
+  height: 100px;
+  line-height: 100px;
+ 
+ 
+  
+} **/
+
+
+#projects  a {
+  pointer: cursor;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  
+  
+}
+
+
+.show_all{
+  width: 50%
+    
+    height: 10px;
+    padding: 20px;
+  color: #334d4d;
+  background-color: #e6fff7;
+  border: 2px solid #334d4d;
+}
+
+.move {
+  margin-top: 30px;
+}
+
+
+#contacts {
+  width: 100%;
+ background-color: #b3ffcc;
+ margin-top: 70px;
+  padding-top: 60px;
+   padding-bottom: 30px;
+  
+}
+
+#contacts a {
+  border: 2px solid #47d1d1; 
+  border-radius: 100%;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-decoration: none;
+  color: black;
+  
+}
+
+footer {
+  width: 100%;
+    background-color: #004080;
+  height: 80px;
+  color: white;
+  padding-top: 30px;
+}
+
+.tribute {
+  grid-area: tribute;
+}
+
+.personal {
+  grid-area: personal;
+}
+
+.survey {
+  grid-area: survey;
+}
+
+.product {
+  grid-area: product;
+}
+
+.tibute {
+  grid-area: technical;
+}
+
+.current {
+  grid-area: current;
+  
+}
+
+
+
+
+#project-inner {
+  display: flex;
+
+flex-wrap: wrap;
+   
+   justify-content: center;
+    align-content: space-between;
+  
+
+}
+
+
+#project-inner > div {
+  
+  border: 2px solid #334d4d;
+  text-align: center;
+  padding: 20px 0;
+  margin: 30px;
+  
+  width: 40%;
+  
+}
+
+@media only screen and (max-width: 500px) {
+  #project-inner > div {
+    width: 100%;
+  }
+  
+}
